@@ -1,0 +1,187 @@
+body{
+    font: 15px/1.5 ; 
+    margin:0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+ul{
+    padding:0 ;
+    margin: 0;
+}
+header{
+    background-color: #393E46;
+    padding-top: 40px;
+    min-height: 80px;
+    border-bottom: orangered 3px solid;
+    color: white;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header li{
+    float: left;
+    display: inline;
+    padding:0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    padding-top: 10px;
+}
+header .web, header .current{
+    color: orangered;
+    font-weight: bold;
+}
+header a:hover{
+    color: grey;
+    font-weight: bold;
+}
+#showcase{
+    background: url(/Images/360_F_554477926_yKEcMeDTD1oLqKQCjvpryeT5zHLMunNh.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding: 200px;    
+    text-align: center;
+}
+#showcase h1{
+    font-size: 60px;
+    margin-top: 0;
+}
+#showcase p{
+    font-size: 19px;
+}
+#newsletter{
+    background-color: #393E46;
+    color: white;
+    padding: 20px;
+}
+#newsletter form{
+    float: right;
+    margin: 25px;
+}
+#newsletter h1{
+    float: left;
+    font-size:30px;
+    padding-bottom: 5px;
+}
+#newsletter input[type="email"]{
+    padding:7px;
+    width: 200px;
+    height: 15px;
+}
+.button-1{
+    background-color: orangered;
+    padding: 8px;
+    border:0;
+    color: white;
+}
+.button-1:hover{
+    color: black;
+}
+#boxes .box1, .box2, .box3{
+    float: left;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+.box1 img ,.box2 img{
+    width:50%;
+}
+#boxes{
+    margin-top: 10px;
+}
+footer{
+    background-color: orangered;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.box3 {
+    margin-top: 25px;
+}
+.box3 img {
+    width: 60%;
+}
+.about{
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+    padding-top: 30px;
+}
+.tag{
+    width: 60%;
+    font-size: 18px;
+    text-align: justify;
+}
+.description{
+    width: 60%;
+    background-color:#393E46;
+    padding: 1px 10px;
+    margin-right: 5px;
+    font-size: 18px;
+    text-align: justify;
+    color: white;
+}
+.work{
+    float:right;
+    padding: 1px 10px;
+    font-size: 18px;
+    text-align: justify;
+    width: 30%;
+    background-color: #393E46;
+    color: white;
+    position: relative ;
+    bottom: 300px;
+}
+.service{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#list li{
+    list-style: none;
+    background: #e6e6e6;
+    padding: 20px;
+    margin-bottom: 5px;
+    border:grey solid 1px ;
+}
+.service-2{
+    width: 65%;
+}.service-3{
+    background-color: #393E46;
+    color: white;
+    padding: 20px;
+    width: 30%;
+}
+.register input, .register textarea{
+    width: 80%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box{
+    position: relative;
+    left:850px;
+    bottom:600px;
+}
+.btn{
+    background-color: orangered;
+    border: 0;
+    padding: 10px 15px;
+    color: white;
+}
+.btn:hover{
+    color: black;
+}
