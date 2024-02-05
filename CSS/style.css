@@ -48,7 +48,7 @@ header a:hover{
     font-weight: bold;
 }
 #showcase{
-    background: url(/Images/360_F_554477926_yKEcMeDTD1oLqKQCjvpryeT5zHLMunNh.jpg) ;
+    background-image: url(/Images/360_F_554477926_yKEcMeDTD1oLqKQCjvpryeT5zHLMunNh.jpg) ;
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
