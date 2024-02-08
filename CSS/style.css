@@ -14,7 +14,7 @@ ul{
     margin: 0;
 }
 header{
-    background-color: #393E46;
+    background-color: #000;
     padding-top: 40px;
     min-height: 80px;
     border-bottom: orangered 3px solid;
@@ -48,9 +48,9 @@ header a:hover{
     font-weight: bold;
 }
 #showcase{
-    background-image: url(/Images/360_F_554477926_yKEcMeDTD1oLqKQCjvpryeT5zHLMunNh.jpg) ;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    max-width: 100%;
+    background-image:url(../Images/backgroud.jpg);
+    background-size: cover;
     color: white;
     padding: 200px;    
     text-align: center;
@@ -63,7 +63,7 @@ header a:hover{
     font-size: 19px;
 }
 #newsletter{
-    background-color: #393E46;
+    background-color: #000;
     color: white;
     padding: 20px;
 }
@@ -90,6 +90,11 @@ header a:hover{
 .button-1:hover{
     color: black;
 }
+#boxes{
+    max-width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
 #boxes .box1, .box2, .box3{
     float: left;
     width: 30%;
@@ -98,9 +103,6 @@ header a:hover{
 }
 .box1 img ,.box2 img{
     width:50%;
-}
-#boxes{
-    margin-top: 10px;
 }
 footer{
     background-color: orangered;
